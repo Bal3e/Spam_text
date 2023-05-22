@@ -5,7 +5,7 @@ from termcolor import colored
 def spam_text(a, b):
 	time.sleep(10)
 	for i in range (1, b+1):
-		pyautogui.typewrite(a + str(i))
+		pyautogui.typewrite(a)
 		pyautogui.press("enter")
 
 
